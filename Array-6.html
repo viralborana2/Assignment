@@ -1,0 +1,11 @@
+<script>
+    var arr = [20, 30, 40, 89, 90, 67, 78, -21, 67]
+    console.log(arr)
+    var ans = 0
+
+    arr.forEach(value => {
+        ans = value + ans;
+    })
+    var avg = ans / arr.length
+    console.log(avg.toFixed(2))
+</script>

@@ -1,0 +1,14 @@
+<script>
+    var arr = [20, 30, 40, 89, 90, 67, 78, -21, 67]
+    document.write(arr)
+    var smallest = arr[0];
+    var i = 0;
+    while(i <= arr.length){
+        if(arr[i] < smallest){
+            smallest = arr[i]
+        }
+        i++
+    }
+    document.write("<br>")
+    document.write("Smallest value is: ",smallest)
+</script>

@@ -1,0 +1,17 @@
+<script>
+    /*
+    fact * i = fact
+    1 * 5 = 5
+    5 * 4 = 20
+    20 * 3 = 60
+    60 * 2 = 120
+    120 * 1 = 120
+    */
+    var num = prompt("Enter a number : ")
+    console.log(num);
+    var fact = 1
+    for(i = 1;i <= num;i++){
+        fact = fact * i;
+    }
+    document.write("Factorial of ",num," is ",fact)
+</script>

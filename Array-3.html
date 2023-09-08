@@ -1,0 +1,17 @@
+<script>
+    var arr = [20, 30, 40, 89, 90, 67, 78, -21, 67]
+    document.write(arr)
+    var largest = -Infinity;
+    var Second_largest = -Infinity;
+    for(i = 0 ; i <= arr.length ; i++){
+        if(arr[i] > largest){
+            Second_largest = largest;
+            largest = arr[i];
+        }
+        else if(arr[i] > Second_largest && arr[i<largest]){
+            Second_largest = arr[i];
+        }
+    }
+    document.write("<br>")
+    document.write("Second largest value is: ",Second_largest)
+</script>

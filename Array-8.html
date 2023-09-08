@@ -1,0 +1,14 @@
+<script>
+    var arr = [20, 30, 40, 89, 90, 67, 78, -21, 67]
+    console.log(arr)
+
+    for(i = 0;i <= arr.length;i++){
+        if(arr[i] > arr[i +1]){
+            var arr1 = arr[i];
+            arr[i] = arr[i + 1];
+            arr[i + 1] = arr1;
+            i = -1;
+        }
+    }
+    console.log(arr)
+</script>

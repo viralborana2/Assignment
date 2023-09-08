@@ -1,0 +1,31 @@
+<script>
+    var str = "hello world how are you"
+    var strLen = str.length;
+    var revStr= "";
+    for(i=strLen-1;i>=0;i--){
+        revStr += str[i];
+    }
+    document.write("For loop :")
+    document.write("<br>")
+    document.write(str)
+    document.write("<br>")
+    document.write(revStr)
+
+    document.write("<br>")
+    ///////////////////////
+    document.write("<br>")
+
+    var str = "hello world how are you"
+    var strLen = str.length;
+    var revStr = "";
+    var i = strLen - 1;
+    while( i >= 0){
+        revStr += str[i];
+        i--
+    }
+    document.write("While loop :")
+    document.write("<br>")
+    document.write(str)
+    document.write("<br>")
+    document.write(revStr)
+</script>

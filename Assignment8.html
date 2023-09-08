@@ -1,0 +1,19 @@
+<script>
+    var number = prompt("Enter a number :")
+    var num = number
+    var sum = 0
+    while(num>0){
+        var digit = num%10;
+        //console.log(digit)
+        sum = sum + digit**3;
+        //console.log(sum)
+        num = parseInt(num/10)
+        //console.log(num)
+    }
+    if(sum == number){
+        console.log(number,"is an armstrong number")
+    }
+    else{
+        console.log(number,"is not an armstrong number")
+    }
+</script>
